@@ -3,32 +3,37 @@
     padding: 0;
 }
 
-body{
-    background: url(img/fundo.jpg);
-}
-
-.titulo{
-    display: flex;
-    justify-content: center;
-    padding-top: 3rem;
-    font-size: 50px;
-}
-
-.subtitulo{
-    display: flex;
-    justify-content: center;
-}
-
 .container{
     display: flex;
     justify-content: center;
-    padding-top: 4rem;
+    align-items: center;
+    height: 100vh;
 }
 
 .form{
-    background-color: #f2f2f2;
     display: flex;
     flex-direction: column;
-    padding: 3rem;
-    gap: 10px;
+    gap: 20px;
+    background-color: #070707;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.titulo{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+::placeholder{
+    padding: 10px;
+}
+
+input{
+    background-color: #070707;
+    border:solid 2px rgb(149, 68, 224);
+    border-radius: 5px;
+    width: 300px;
+    height: 24px;
 }
