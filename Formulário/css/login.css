@@ -39,6 +39,7 @@ body{
 
 input{
     background-color: #070707;
+    color: #fff;
     border:solid 2px rgb(178, 95, 255);
     border-radius: 13px;
     width: 300px;
